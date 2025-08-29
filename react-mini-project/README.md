@@ -1,12 +1,10 @@
 # 🌤️ Weather App
-
 A simple weather app built with **React + Vite**, **Material UI**, and the **OpenWeather API**.
 Users can search for any city to view real-time weather details such as temperature, humidity, feels-like, and weather conditions.
 
 ---
 
 ## 🚀 Features
-
 * 🔍 Search weather by city name
 * 🌡️ Displays temperature, min/max, feels-like, humidity
 * ☁️ Shows weather condition description
@@ -16,7 +14,6 @@ Users can search for any city to view real-time weather details such as temperat
 ---
 
 ## 🛠️ Tech Stack
-
 * **React + Vite** – Frontend framework
 * **Material UI** – UI components
 * **OpenWeather API** – Weather data
@@ -25,7 +22,6 @@ Users can search for any city to view real-time weather details such as temperat
 ---
 
 ## ⚙️ Installation
-
 1. **Clone the repo**
 
    ```bash
