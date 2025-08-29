@@ -1,13 +1,13 @@
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import "./SearchBox.css"
-import { use, useState } from 'react';
+import { useState } from 'react';
 
 export default function SearchBox ({ updateInfo }) {
     let [city, setCity] = useState("");
     let [error, setError] = useState(false);
     const API_URL = "https://api.openweathermap.org/data/2.5/weather";
-    const API_KEY = "147921986b873bb96f1b7e5dfae550b6";
+    const API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
 
     let getWeatherInfo = async () => {
         try {
